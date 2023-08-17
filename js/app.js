@@ -27,6 +27,7 @@ function formatTime(d) {
     if (mins < 10) mins = '0' + mins;
     return hours + ':' + mins;
 }
+
 function formatDate(d) {
     return formatDay(d) + ', <span>' + formatTime(d) + '</span>';
 }
